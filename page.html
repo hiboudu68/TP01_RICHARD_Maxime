@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <script src="./javascript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Le titre de ma page</title>
+    </head>
+    <body>
+        <form action="" method="get" class="compte">
+            <div class="compte">
+              <label for="name">Entrer Nom: </label>
+              <input type="text" name="name" id="name"  />
+            </div>
+            <div class="compte">
+                <label for="prenom">Entrer Prenom: </label>
+                <input type="text" name="prenom" id="prenom"  />
+            </div>
+            <div class="compte">
+              <label for="adress">Entrer Adresse: </label>
+              <input type="text" name="adress" id="adress"  />
+            </div>
+            <div class="compte">
+                <label for="cp">Entrer Code Postal: </label>
+                <input type="text" name="cp" id="cp"  />
+            </div>
+            <div class="compte">
+                <label for="ville">Entrer Ville: </label>
+                <input type="text" name="txt" id="txt"  />
+            </div>
+            <div class="compte">
+                <label for="tel">Entrer Tel: </label>
+                <input type="tel" name="tel" id="tel"  />
+            </div>
+            <div class="compte">
+                <label for="email">Entrer Email: </label>
+                <input type="email" name="email" id="email"  />
+            </div>
+            <div class="compte">
+                <label for="civile">Entrer Civilité: </label>
+                <input type="text" name="civile" id="civile"  />
+            </div>
+            <div class="compte">
+                <label for="pass">Entrer Mot de Passe: </label>
+                <input type="password" name="pass" id="pass"  />
+            </div>
+            <div class="compte">
+                <label for="confirme">Confirmer: </label>
+                <input type="password" name="confirme" id="confirme"/>
+            </div>
+            <div class="compte">
+                <label for="log">Entrer Login: </label>
+                <input type="text" name="log" id="log"  />
+            </div>
+            <div class="compte">
+              <input type="submit" onclick="valid(event)" value="Connexion!" />
+            </div>
+        </form>
+        <p id="perror"></p>
+    </body>
+    <foot>
+    </foot>
+</html>
